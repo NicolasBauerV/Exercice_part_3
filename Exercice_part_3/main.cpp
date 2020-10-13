@@ -6,9 +6,25 @@
 //
 
 #include <iostream>
+#include "friend_request.hpp"
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    point a(5,12); //Déclaration de point
+    affiche(a);
+    
+    point *adp = new point(2, 4);
+    affiche(*adp);
+    
+    //vecteurs
+    vecteur3d v1(22,4,54), v2(22,4,54);
+    
+    //Est ce que les points coïncides ?
+    if (coincide(v1, v2)) {
+        cout << "Les points coincides" << endl;
+    }
+    
+    
     return 0;
 }
