@@ -6,7 +6,9 @@
 //
 
 #include <iostream>
-#include "friend_request.hpp"
+#include "friend_request.hpp" //Contient point et vecteur3d
+#include "vect_matrice.hpp" //contient vect et mat
+
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -22,9 +24,18 @@ int main(int argc, const char * argv[]) {
     
     //Est ce que les points coïncides ?
     if (coincide(v1, v2)) {
-        cout << "Les points coincides" << endl;
+        cout << "Les points coincides" << endl << endl;
     }
     
+    //---------------- Vect et matrice ----------------------
     
+    vect vect1(4.5, 6.3, 8.87); //Valeur au hasard
+    vect res;
+    
+    double tab [3][3] = {4, 6, 3, 65, 34, 66, 23, 13, 54};
+    matrice mat = tab;
+    
+    res = prod(mat, vect1);
+    res.affiche();
     return 0;
 }

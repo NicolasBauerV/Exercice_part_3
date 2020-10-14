@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DBD8FDE2536E2DA002C24D1 /* vect_matrice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD8FDC2536E2DA002C24D1 /* vect_matrice.cpp */; };
 		8DBE806A253489670064F0E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DBE8069253489670064F0E1 /* main.cpp */; };
 		8DBE8073253489900064F0E1 /* friend_request.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DBE8071253489900064F0E1 /* friend_request.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8DBD8FDC2536E2DA002C24D1 /* vect_matrice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vect_matrice.cpp; sourceTree = "<group>"; };
+		8DBD8FDD2536E2DA002C24D1 /* vect_matrice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vect_matrice.hpp; sourceTree = "<group>"; };
 		8DBE8066253489670064F0E1 /* Exercice_part_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exercice_part_3; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBE8069253489670064F0E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8DBE8071253489900064F0E1 /* friend_request.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = friend_request.cpp; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				8DBE8069253489670064F0E1 /* main.cpp */,
 				8DBE8071253489900064F0E1 /* friend_request.cpp */,
 				8DBE8072253489900064F0E1 /* friend_request.hpp */,
+				8DBD8FDC2536E2DA002C24D1 /* vect_matrice.cpp */,
+				8DBD8FDD2536E2DA002C24D1 /* vect_matrice.hpp */,
 			);
 			path = Exercice_part_3;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DBE806A253489670064F0E1 /* main.cpp in Sources */,
+				8DBD8FDE2536E2DA002C24D1 /* vect_matrice.cpp in Sources */,
 				8DBE8073253489900064F0E1 /* friend_request.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
